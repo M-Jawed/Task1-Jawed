@@ -5,7 +5,7 @@ import { BiLogoGmail } from "react-icons/bi";
 
 export default function Footer(){
     return (
-        <footer id="footer" className="w-full bg-[#2F1893] h-[240px] flex items-center justify-center">
+        <footer id="footer" className="w-full bg-[#2F1893] h-[240px] flex items-center justify-center max-md:h-[440px]">
             
             <div className="text-white w-[80%]">
                 <div className="flex items-center justify-between w-[100%]">
@@ -26,10 +26,10 @@ export default function Footer(){
 
                 <div className="w-full border-1 border-gray-300 mt-10"></div>
 
-                <div className="flex items-center justify-between w-full mt-10">
-                    <div>
+                <div className="flex items-center justify-between w-full mt-10 max-sm:gap-10">
+                    <div className="max-sm:w-[80%]">
                         <nav>
-                            <ul className="flex items-center gap-4">
+                            <ul className="flex items-center gap-4 max-md:flex-col">
                                 <li><a href="#">Tour</a></li>
                                 <li><a href="#features">Features</a></li>
                                 <li><a href="#pricing">Pricing Plans</a></li>

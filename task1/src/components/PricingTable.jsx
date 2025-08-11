@@ -3,7 +3,7 @@ import { TiTick } from "react-icons/ti";
 
 export default function Pricing(){
     return (
-        <section id="pricing" className="w-full h-[1100px] relative flex items-center justify-center">
+        <section id="pricing" className="w-full h-[1100px] relative flex items-center justify-center max-md:h-[2500px]">
             <div style={{backgroundImage: `url(${pricing})`}} className='absolute inset-0 bg-cover bg-no-repeat z-0'></div>
             <div className='absolute inset-0 bg-gradient-to-b from-blue-900 via-purple-500 to-blue-300 z-10 opacity-50'></div>
 
@@ -13,7 +13,7 @@ export default function Pricing(){
                     <p className='w-[55%] text-xl'>Startup Framework is free forever — you only pay for custom domain hosting or to export your site.</p>
                 </div>
 
-                <div className='w-[100%] flex items-center gap-5'>
+                <div className='w-[100%] flex items-center gap-5 flex-wrap max-md:justify-center'>
                     <div className='border-2 border-gray-300 rounded-[9px] flex flex-col items-center w-[70%] px-8 py-10'>
                         <div className='flex flex-col self-start px-10 mb-5'>
                             <h1 className='text-2xl mb-10'>Starter</h1>

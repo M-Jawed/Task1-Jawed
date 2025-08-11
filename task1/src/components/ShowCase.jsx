@@ -34,8 +34,8 @@ export default function ShowCase(){
     const worksElements = works.map((item, index) => {
         return (
             <div key={index} className='flex flex-col items-center text-center text-white'>
-                <div className='w-[470px] h-[280px] mb-10'>
-                    <img src={item.img} className='w-full h-full object-cover' alt={`Image of a project with the name of ${item.name}`} />
+                <div className='w-[470px] h-[280px] mb-10 max-sm:w-[390px]'>
+                    <img src={item.img} className='w-full h-full object-cover max-sm:rounded-[10px]' alt={`Image of a project with the name of ${item.name}`} />
                 </div>
 
                 <div>

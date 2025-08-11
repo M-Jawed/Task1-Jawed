@@ -30,7 +30,7 @@ export default function Testimonial(){
 
     const usersElement = users.map((item, index) => {
         return (
-            <div key={index} className='border-2 border-[#615691] flex items-center gap-5 rounded-[9px] w-[470px] h-[237px] px-8'>
+            <div key={index} className='border-2 border-[#615691] flex items-center gap-5 rounded-[9px] w-[470px] h-[237px] px-8 max-sm:w-[380px]'>
                 <div className='w-[270px] h-[70px] mt-[-110px]'>
                     <img className='w-full h-full object-cover rounded-[9px]' src={item.img} alt="Image of a person" />
                 </div>

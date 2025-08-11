@@ -5,13 +5,13 @@ import { LuBuilding } from "react-icons/lu";
 
 export default function Contact(){
     return (
-        <section id="contact" className="relative w-full h-screen flex items-center justify-center">
+        <section id="contact" className="relative w-full h-screen flex items-center justify-center max-md:h-[1200px]">
 
             <div className="absolute inset-0 bg-cover bg-no-repeat z-0" style={{ backgroundImage: `url(${contact})` }}></div>
             <div className="absolute inset-0 bg-gradient-to-b from-[#3b2a78]/60 to-[#1E1E1F]/80 z-10"></div>
 
-            <div className='z-20 text-white flex items-center justify-center w-[80%] gap-10'>
-                <div className='flex flex-col justify-center w-[40%]'>
+            <div className='z-20 text-white flex items-center justify-center w-[80%] gap-10 max-md:flex max-md:flex-col max-md:items-center max-md:w-full'>
+                <div className='flex flex-col justify-center w-[40%] max-md:w-[70%]'>
                     <h1 className='mb-5 text-5xl font-semibold'>Let's Keep in Touch</h1>
                     <p className='mb-10 w-[60%]'>We have create a new product that will help designers, developers and companies create websites for their startups quickly and easily</p>
                     <div className='flex items-center gap-2 w-[55%]'>
@@ -28,7 +28,7 @@ export default function Contact(){
                         </div>
                     </div>
                 </div>
-                <form className='bg-white w-[36%] h-[500px] rounded-[10px] flex flex-col items-center text-black py-7 px-8'>
+                <form className='bg-white w-[36%] h-[500px] rounded-[10px] flex flex-col items-center text-black py-7 px-8 max-md:w-[80%]'>
                     <div className='w-[100%] flex items-center justify-between gap-5 mb-6'>
                         <div className='flex flex-col self-start'>
                             <label className='text-[#1E0E62] uppercase tracking-widest text-sm font-semibold mb-3' htmlFor="name">your name</label>
