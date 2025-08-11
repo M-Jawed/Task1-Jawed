@@ -13,7 +13,7 @@ export default function Pricing(){
                     <p className='w-[55%] text-xl'>Startup Framework is free forever — you only pay for custom domain hosting or to export your site.</p>
                 </div>
 
-                <div className='w-[100%] flex items-center gap-5 flex-wrap max-md:justify-center'>
+                <div className='w-[100%] flex items-center gap-5 max-md:flex-wrap max-md:justify-center'>
                     <div className='border-2 border-gray-300 rounded-[9px] flex flex-col items-center w-[70%] px-8 py-10'>
                         <div className='flex flex-col self-start px-10 mb-5'>
                             <h1 className='text-2xl mb-10'>Starter</h1>
