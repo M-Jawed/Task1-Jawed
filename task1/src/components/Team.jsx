@@ -15,9 +15,9 @@ import { FaGit } from "react-icons/fa";
 export default function Team(){
 
     return (
-        <section id="team" className="w-full h-[900px] bg-[#2F1893] flex items-center justify-center">
-            <div className="text-white w-[80%] mt-[-40px]">
-                <div className=" w-[48%]">
+        <section id="team" className="w-full h-[900px] bg-[#2F1893] flex items-center justify-center max-md:h-[1300px]">
+            <div className="text-white w-[80%] mt-[-40px] max-md:flex max-md:items-center max-md:justify-center max-md:flex-col max-md:w-full">
+                <div className=" w-[48%] max-md:w-[70%]">
                     <h1 className="text-4xl font-semibold mb-5">Startup Crew</h1>
                     <p className="text-lg">The most important part of the Startup Framework is the samples. The samples form a set of 25 usable pages you can use as is or you can add new blocks from UI Kit.</p>
                 </div>

@@ -13,12 +13,12 @@ export default function Features(){
             <div style={{backgroundImage: `url(${features})`}} className="absolute inset-0 bg-cover bg-no-repeat z-0"></div>
             <div className='absolute inset-0 z-10 bg-gradient-to-br from-purple-300 via-indigo-400 to-gray-700 opacity-50'></div>
             <div className='z-20 flex items-center justify-between w-[100%] h-screen px-[120px]'>
-                <div className='ml-[-120px]'>
-                    <img src={laptop} alt="Image of a half cropped laptop" />
+                <div className='ml-[-120px] max-md:w-[40%] max-md:mr-15'>
+                    <img className='max-md:w-[100%]' src={laptop} alt="Image of a half cropped laptop" />
                 </div>
 
-                <div className=' w-[50%] text-white ml-[-60px] flex flex-col items-start'>
-                    <h1 className='text-4xl font-bold mb-[20px]'>We Create Something New</h1>
+                <div className=' w-[50%] text-white ml-[-60px] flex flex-col items-start max-md:w-[80%]'>
+                    <h1 className='text-4xl font-bold mb-[20px] max-md:text-2xl'>We Create Something New</h1>
                     <p className='w-[65%] mb-[50px]'>We have created a new product that will help designers, developers and companies create websites for their startups quickly and easily.</p>
                     
                     <div className='flex items-center gap-10'>

@@ -7,7 +7,7 @@ export default function Form(){
             <div className='absolute inset-0 z-10 bg-gradient-to-r from-blue-900 to-blue-500 opacity-60'></div>
 
             <div className='z-20 flex items-center justify-center gap-30 w-[100%] h-screen'>
-                <div className='text-white w-[20%]'>
+                <div className='text-white w-[20%] max-md:hidden'>
                     <h1 className='text-4xl font-semibold mb-[20px]'>We solve digital problems with an outstanding creative flare</h1>
                     <p className='text-[12px] w-[90%]'>We have created a new product that will help designers, developers and companies create websites for their startups quickly and easily.</p>
                 </div>

@@ -44,7 +44,7 @@ export default function Testimonial(){
         )
     })
     return (
-        <section id="testimonial" className="w-[100%] h-screen bg-[#1E0E62] flex items-center justify-center">
+        <section id="testimonial" className="w-[100%] h-screen bg-[#1E0E62] flex items-center justify-center max-md:h-[1200px] max-md:justify-start max-md:pl-10">
             <div className="text-white w-[70%] px-10">
                 <h1 className="text-4xl font-semibold mb-10">Our Happy Clients</h1>
 

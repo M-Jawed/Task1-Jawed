@@ -48,11 +48,11 @@ export default function ShowCase(){
 
 
     return (
-        <section id="showcase" className="w-full h-[1100px] bg-[#2F1893] flex items-center justify-center py-[120px]">
-            <div className="w-[80%] mx-auto flex flex-col items-center justify-center">
+        <section id="showcase" className="w-full h-[1100px] bg-[#2F1893] flex items-center justify-center py-[120px] max-md:h-[2100px] max-md:justify-start">
+            <div className="w-[80%] mx-auto flex flex-col items-center justify-center max-md:w-full">
                 <div className="w-[81%] flex items-center justify-between text-white mb-[50px]">
                     <h1 className="text-4xl font-semibold">Last works</h1>
-                    <button className="border-2 border-[#615691] rounded-full w-[13%] py-2 cursor-pointer">View all Works</button>
+                    <button className="border-2 border-[#615691] rounded-full w-[13%] py-2 cursor-pointer max-md:w-[30%]">View all Works</button>
                 </div>
 
                 <div className="w-[81%] flex flex-wrap items-center gap-10 gap-y-20">
