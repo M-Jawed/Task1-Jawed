@@ -2,7 +2,7 @@ import Content from '../assets/Content.png'
 
 export default function Form(){
     return (
-        <section id="form" className="relative w-[100%] h-screen flex flex-col items-center justify-center">
+        <section id="form" className="relative w-[100%] h-screen flex flex-col items-center justify-center max-[380px]:px-5">
             <div style={{backgroundImage: `url(${Content})`}} className="absolute inset-0 bg-cover bg-no-repeat z-0"></div>
             <div className='absolute inset-0 z-10 bg-gradient-to-r from-blue-900 to-blue-500 opacity-60'></div>
 

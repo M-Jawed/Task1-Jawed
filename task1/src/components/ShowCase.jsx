@@ -34,7 +34,7 @@ export default function ShowCase(){
     const worksElements = works.map((item, index) => {
         return (
             <div key={index} className='flex flex-col items-center text-center text-white'>
-                <div className='w-[470px] h-[280px] mb-10 max-sm:w-[390px]'>
+                <div className='w-[470px] h-[280px] mb-10 max-sm:w-[390px] max-[380px]:w-[230px]'>
                     <img src={item.img} className='w-full h-full object-cover max-sm:rounded-[10px]' alt={`Image of a project with the name of ${item.name}`} />
                 </div>
 
@@ -51,8 +51,8 @@ export default function ShowCase(){
         <section id="showcase" className="w-full h-[1100px] bg-[#2F1893] flex items-center justify-center py-[120px] max-md:h-[2100px] max-md:justify-start">
             <div className="w-[80%] mx-auto flex flex-col items-center justify-center max-md:w-full">
                 <div className="w-[81%] flex items-center justify-between text-white mb-[50px]">
-                    <h1 className="text-4xl font-semibold">Last works</h1>
-                    <button className="border-2 border-[#615691] rounded-full w-[13%] py-2 cursor-pointer max-md:w-[30%]">View all Works</button>
+                    <h1 className="text-4xl font-semibold max-[380px]:text-2xl">Last works</h1>
+                    <button className="border-2 border-[#615691] rounded-full w-[13%] py-2 cursor-pointer max-md:w-[30%] max-[380px]:w-[59%]">View all Works</button>
                 </div>
 
                 <div className="w-[81%] flex flex-wrap items-center gap-10 gap-y-20">

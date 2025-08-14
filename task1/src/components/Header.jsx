@@ -5,7 +5,7 @@ export default function Header(){
     return (
         <header className="w-[100%] bg-transparent pt-[60px]">
             <nav>
-                <ul className='flex items-center justify-center gap-8 text-white font-semibold '>
+                <ul className='flex items-center justify-center gap-8 text-white font-semibold max-[380px]:text-[10px]'>
                     <li className='hover:text-gray-300'><a href="#landing">Home</a></li>
                     <li className='hover:text-gray-300'><a href="#features">Features</a></li>
                     <li className='hover:text-gray-300'><a href="#pricing">Pricing</a></li>

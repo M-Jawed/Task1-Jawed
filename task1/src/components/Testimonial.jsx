@@ -30,13 +30,13 @@ export default function Testimonial(){
 
     const usersElement = users.map((item, index) => {
         return (
-            <div key={index} className='border-2 border-[#615691] flex items-center gap-5 rounded-[9px] w-[470px] h-[237px] px-8 max-sm:w-[380px]'>
-                <div className='w-[270px] h-[70px] mt-[-110px]'>
+            <div key={index} className='border-2 border-[#615691] flex items-center gap-5 rounded-[9px] w-[470px] h-[237px] px-8 max-sm:w-[380px] max-[380px]:w-[300px]'>
+                <div className='w-[270px] h-[70px] mt-[-110px] max-[380px]:w-[200px] max-[380px]:h-[50px]'>
                     <img className='w-full h-full object-cover rounded-[9px]' src={item.img} alt="Image of a person" />
                 </div>
                 <div className='flex flex-col justify-between'>
                     <div className='h-[170px]'>
-                        <p className=''> {item.info} </p>
+                        <p className='max-[380px]:text-sm'> {item.info} </p>
                     </div>
                     <span className='text-[#615691] uppercase tracking-widest text-sm font-semibold'> {item.name} </span>
                 </div>
@@ -45,8 +45,8 @@ export default function Testimonial(){
     })
     return (
         <section id="testimonial" className="w-[100%] h-screen bg-[#1E0E62] flex items-center justify-center max-md:h-[1200px] max-md:justify-start max-md:pl-10">
-            <div className="text-white w-[70%] px-10">
-                <h1 className="text-4xl font-semibold mb-10">Our Happy Clients</h1>
+            <div className="text-white w-[70%] px-10 max-[380px]:w-full">
+                <h1 className="text-4xl font-semibold mb-10 max-[380px]:text-lg">Our Happy Clients</h1>
 
                 <div className='flex items-center flex-wrap gap-7'>
                     {usersElement}
